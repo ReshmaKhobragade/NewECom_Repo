@@ -12,6 +12,6 @@ public class Flipkart {
 	  driver.get("https://www.flipkart.com/");
 	  driver.manage().window().maximize();
 	  driver.manage().deleteAllCookies();
-	  
+	  driver.close();
   }
 }

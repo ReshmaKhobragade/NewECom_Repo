@@ -16,6 +16,6 @@ public class Myntra
 	  driver.get("https://www.myntra.com/");
 	  driver.manage().window().maximize();
 	  driver.manage().deleteAllCookies();
-	  
+	  driver.close();
   }
 }

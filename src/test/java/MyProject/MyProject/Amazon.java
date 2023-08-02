@@ -14,7 +14,7 @@ public class Amazon {
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		
+		driver.close();
 	}
 
 }
