@@ -6,13 +6,14 @@ import org.testng.annotations.Test;
 
 public class Meesho {
   @Test
-  public void MeeshoTest() 
+  public void MeeshoTest() throws InterruptedException 
   
   {
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("https://www.meesho.com/");
 	  driver.manage().window().maximize();
 	  driver.manage().deleteAllCookies();
+	  Thread.sleep(5000);
 	  driver.close();
 	  
   }
