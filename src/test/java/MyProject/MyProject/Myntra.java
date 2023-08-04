@@ -8,14 +8,15 @@ public class Myntra
 
 {
   @Test
-  public void MyntraTest()
+  public void MyntraTest() throws InterruptedException
   
  {
 	  
 	  WebDriver driver = new ChromeDriver();
-	  driver.get("https://www.myntra.com/");
+      driver.get("https://www.myntra.com/");
 	  driver.manage().window().maximize();
 	  driver.manage().deleteAllCookies();
+	  Thread.sleep(3000);
 	  driver.close();
   }
 }
