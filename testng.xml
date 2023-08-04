@@ -6,6 +6,7 @@
       <class name="MyProject.MyProject.Amazon"/>
       <class name="MyProject.MyProject.Myntra"/>
       <class name="MyProject.MyProject.Flipkart"/>
+       <class name="MyProject.MyProject.Meesho"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
